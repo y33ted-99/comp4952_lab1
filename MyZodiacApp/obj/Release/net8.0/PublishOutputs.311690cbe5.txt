@@ -1,0 +1,7 @@
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\MyZodiacApp.exe
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\appsettings.Development.json
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\appsettings.json
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\MyZodiacApp.dll
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\MyZodiacApp.deps.json
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\MyZodiacApp.runtimeconfig.json
+C:\Users\Brian\Desktop\comp4952_lab1\MyZodiacApp\bin\Release\net8.0\publish\MyZodiacApp.pdb

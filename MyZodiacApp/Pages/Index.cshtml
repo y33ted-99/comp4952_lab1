@@ -1,0 +1,28 @@
+﻿@page
+@model ZodiacModel
+@{
+    ViewData["Title"] = "Find Your Zodiac Sign";
+}
+
+<h4>Brian's Zodiac App</h4>
+<br>
+<h2>Find Your Zodiac Sign</h2>
+
+
+<form method="post">
+    <div>
+        <label for="year">Enter Year:</label>
+        <input type="text" id="year" name="Year" value="@Model.Year" />
+        <span style="color: red;">@Model.ErrorMessage</span>
+    </div>
+    <br />
+    <button type="submit">Submit</button>
+    <button type="button" onclick="location.href='@Url.Page("/Zodiac")'">Clear</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ZodiacSign))
+{
+    <h3>Your Zodiac Sign: @Model.ZodiacSign</h3>
+    <img src="/images/@(Model.ZodiacSign.ToLower() + ".png")" alt="@Model.ZodiacSign Image" />
+}
+
